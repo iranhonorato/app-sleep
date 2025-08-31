@@ -11,8 +11,16 @@ export default function Home() {
       <div className={classes.container}>
         <div className={classes.geral}>
           <div className={classes.text_area}>
-            <h1>Título</h1>
-            <p>Descrição</p>
+            <h1>Alerta sonoro contra sonolência de motoristas</h1>
+            <p>
+              Estudos mostram que quase 1 em cada 10 acidentes graves nos EUA está ligado à sonolência ao volante. 
+              No Brasil, estima-se que o sono custe centenas de milhões de reais ao ano para transportadoras, sem contar as vidas perdidas.
+              A nossa solução é simples e poderosa:
+              Uma câmera embarcada com software de Edge AI que monitora continuamente os sinais de sonolência do motorista — bocejos, piscadas longas, olhos semicerrados.
+              Tudo isso processado localmente no dispositivo, sem depender de internet, garantindo baixa latência, privacidade e confiabilidade.
+              Assim que a IA detecta sinais de fadiga, o sistema dispara um alerta sonoro imediato dentro da cabine. 
+              Esse aviso pode significar a diferença entre acordar o motorista ou deixá-lo cair no sono — e salvar vidas.
+            </p>
           </div>
           <div className={classes.vid_area}>
             <h1>Vídeo</h1>

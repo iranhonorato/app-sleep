@@ -23,10 +23,12 @@
 }
 
 .geral h1 {
+  font-family: 'Montserrat', sans-serif;
   color: white;
 }
 
 .geral p {
+  font-family: 'Montserrat', sans-serif;
   font-size: large;
   color: white
 }
@@ -34,11 +36,11 @@
 
 
 .text_area {
-  width: 50%;
+  width: 40%;
 }
 
 .vid_area {
-  width: 50%;
+  width: 40%;
 }
 
 .complete_features {
@@ -59,20 +61,24 @@
 }
 
 .study_description h1 {
+  font-family: 'Montserrat', sans-serif;
   color: white;
 }
 
 .study_description a {
+  font-family: 'Montserrat', sans-serif;
   color: white;
   font-size: large;
 }
 
 .study_description a:hover {
+  font-family: 'Montserrat', sans-serif;
   color: #ff7f00;
   font-size: large;
 }
 
 .study_description p {
+  font-family: 'Montserrat', sans-serif;
   color: white;
   font-size: large;
 }
