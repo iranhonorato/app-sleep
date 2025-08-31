@@ -26,7 +26,7 @@ export default function Home() {
         <div className={classes.study_description}>
           <h1>Evidências Científicas</h1>
           <p>
-            O estudo <a href="https://aaafoundation.org/prevalence-drowsy-driving-crashes-estimates-large-scale-naturalistic-driving-study/?utm_source=chatgpt.com">
+            O estudo <a href="https://aaafoundation.org/prevalence-drowsy-driving-crashes-estimates-large-scale-naturalistic-driving-study/?utm_source=chatgpt.com" target="_blank">
             “Prevalence of Drowsy‑Driving Crashes: Estimates from a Large‑Scale Naturalistic Driving Study”, 
             conduzido pela AAA Foundation for Traffic Safety com base no SHRP 2 NDS</a>, teve como propósito
             estimar a verdadeira proporção de acidentes de trânsito envolvidos por sonolência do condutor, 
