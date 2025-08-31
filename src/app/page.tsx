@@ -6,7 +6,6 @@ import Footer from "../components/Footer";
 export default function Home() {
   return (
     <div className={classes.page}>
-      <NavBar />
       <div className={classes.geral}>
         <div className={classes.text_area}>
           <p>Área destinada para texto</p>
@@ -32,7 +31,6 @@ export default function Home() {
           <div>a9</div>
         </div>
       </div>  
-      <Footer/>
     </div>
   );
 }
