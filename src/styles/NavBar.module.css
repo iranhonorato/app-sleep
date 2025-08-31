@@ -40,7 +40,6 @@
 .central p {
   font-family: 'Montserrat', sans-serif;
   color: white;
-  font-size: 1.1rem;
   cursor: pointer;
 }
 
@@ -62,19 +61,24 @@
   text-align: center;
 }
 
+
 .final:hover {
   background-color: #ff7f00; 
 }
+
 
 @media (max-width: 60rem) {
   .pai {
     flex-direction: column;
   }
 
+
   .logo {
     text-align: center;
     margin-bottom: 1rem;
   }
+
+
 
   .central {
     flex-direction: row; /* Links ficam em coluna */
@@ -82,15 +86,21 @@
     display: none; /* Esconde os links inicialmente */
   }
 
+
+
   .central.menuActive {
     display: flex; 
   }
+
+
 
   .final {
     justify-content: center;
     margin-top: 1rem;
   }
 
+
+  
   .final p {
     width: 100%; /* Botão ocupa toda a largura */
   }
