@@ -1,0 +1,58 @@
+.page {
+  display: flex;
+  flex-direction: column;
+
+} 
+
+.geral {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border: 2px red solid;
+  padding: 3rem;
+}
+
+.text_area {
+  width: 50%;
+  border: 2px red solid;
+}
+
+.vid_area {
+  width: 50%;
+  border: 2px red solid;
+}
+
+.complete_features {
+  display: flex;
+  flex-direction: column;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+
+.description_features {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.description_features p {
+  border: 2px red solid;
+}
+
+
+
+.features {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  gap: 5rem;
+  border: 2px red solid;
+}
+
+.features div {
+  border: 2px red solid;
+  width: 10rem;
+  height: 10rem;
+}
