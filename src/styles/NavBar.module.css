@@ -9,14 +9,22 @@
 }
 
 .logo {
-  width: 5%;
-  font-size: 1.5rem;
+  width: 8%;
+  font-size: 1.2rem;
   font-weight: bold;
   text-align: left;
 }
 
+.logo a {
+  text-decoration: none;
+}
+
 .logo p {
   color: white;
+}
+
+.logo p:hover {
+  color: #ff7f00;
 }
 
 .central {
@@ -38,10 +46,11 @@
 }
 
 
-.finel {
-  display: flex;
-  width: 50%;
+.final p {
+  display: none;
 }
+
+
 .final {
   padding: 0.5rem 1rem;
   color: white;
@@ -65,7 +74,7 @@
   }
 
   .central {
-    flex-direction: column; /* Links ficam em coluna */
+    flex-direction: row; /* Links ficam em coluna */
     gap: 1rem;
     display: none; /* Esconde os links inicialmente */
   }
@@ -84,22 +93,3 @@
   }
 }
 
-
-@media (max-width: 35rem) {
-  .hamburger {
-    display: block; 
-    font-size: 2rem;
-    color: white;
-    cursor: pointer;
-    padding: 0.5rem;
-    margin-right: 1rem;
-  }
-
-  .hamburger.active {
-    color: #ff7f00; 
-  }
-
-  .menu {
-    display: none;
-  }
-}
